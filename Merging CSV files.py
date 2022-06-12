@@ -18,4 +18,4 @@ for csvfiles in os.listdir(os.getcwd()):
     if csvfiles.endswith('.csv'):
         master_df=master_df.append(pd.read_csv(csvfiles))
         
-master_df.to_csv("E:\Digital data\Andreas\masterfile2.csv", index=False)
+master_df.to_csv("D:/GitHub Uploads/Merging-CSV-files/masterfile2.csv", index=False)
